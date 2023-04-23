@@ -133,7 +133,7 @@ try:
  print("\n\033[1;37m[\033[1;32m#\033[1;37m]"+"\033[1;32m Connetcted ")
 except (requests.ConnectionError, requests.Timeout) as exception:
  print("\n\033[1;37m[\033[1;32m#\033[1;37m] \033[1;31m😢 Your Internet Connection Is Poor !")
-number=input(f"{c}\n[ VICTIM NUMBER ] :{w} +880")
+number=input(f"[ VICTIM NUMBER ] :{w} ")
 amo=int(input(c+"\n[ AMOUNT ] : "+w))
 xak(f"\n\n\t\t   {w}<{r}/{w}> {g}BE ETHICAL MATE ;) {w}<{r}/{w}>\n\n")
 input(f"\t\t\t{r}Press Enter....")
